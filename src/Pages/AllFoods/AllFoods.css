@@ -1,0 +1,70 @@
+.all-foods {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-foods {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-foods h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+    color: #282892;
+    text-align: center;
+}
+
+.header-foods p {
+    font-size: 1.2em;
+    color: #282892d0;
+}
+
+.filter-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.filter-left span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    color: #282892;
+}
+
+.filter-right {
+    display: flex;
+    gap: 20px;
+}
+
+.sort-by,
+.show {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #282892;
+}
+
+.sort-by label,
+.show label {
+    font-size: 0.9em;
+    color: #282892d0;
+}
+
+select {
+    padding: 5px 10px;
+    border: 1px solid #282892d0;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 0.9em;
+}
+
+select:focus {
+    outline: none;
+}

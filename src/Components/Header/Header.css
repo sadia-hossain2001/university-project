@@ -1,0 +1,45 @@
+ .header{
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    background: url("/src/assets/header_img.png") no-repeat;
+    background-size: cover;  
+    background-position: center;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 20px;
+ }
+ 
+ .header-contents{
+    position: absolute;
+    top:78%;
+    left: 3.5rem;
+    animation: fadeIn 3s;
+ }
+
+.order-btn{
+    padding:10px 20px;
+    border: none;
+    color: #FFB5BC;
+    font-weight: bolder;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-contents {
+        max-width: 65%;
+    }
+    .order-btn {
+        padding: 1vw 2vw;
+    }
+}
+
